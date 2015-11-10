@@ -6,3 +6,10 @@ it accepts an email as parameter and invite it to the wiki. If you have a list o
 
 ``` cat emails.txt | xargs -L1 ./inviteScript.sh ```
 
+## Configuration
+
+To use it in your wiki, set the following information in inviteScript.sh:
+
+ - **name**: as the admin user name in the wiki
+ - **pass**: as the password of the admin user in the wiki
+ - **url**: as the wiki url address
